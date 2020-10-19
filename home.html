@@ -2,13 +2,97 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Microwave Personas and Storyboard</title>
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+  	<div class="container-fluid">
+	  	<div class="container main-title">
+	  		<h1>Responsive Site Redesign</h1>
+	  	</div>
+	  	<div class="row bg-success text-center justify-content-center d-flex original-pictures">
+		    <div class="col-md-6">
+		    	<h2>Original Site (Desktop)</h2>
+				<img class="padding-pics" src="./Images/original-site-1.png" />
+				<img class="padding-pics" src="./Images/original-site-2.png" />
+				<h3><a style="color: blue;" href="http://www.tallulahstaqueria.com/menu/">Link</a></h3>
+		    </div>
+	    	<div class="col-md-6">
+		    	<h2>Final Redesigned Site (Desktop)</h2>
+				<img class="padding-pics" src="./Images/new-site-1.png" />
+				<img class="padding-pics" src="./Images/new-site-2.png" />
+				<img class="padding-pics" src="./Images/new-site-3.png" />
+				<img class="padding-pics" src="./Images/new-site-4.png" />
+				<h3><a style="color: blue;" href="https://peaceful-ocean-09565.herokuapp.com/">Link</a></h3>
+	    	</div>
+	    </div>
+	    <div class="row bg-primary observations">
+	    	<div class="card bg-light col-sm-12 col-md-6 col-lg-6 observation-1">
+		    	<h1>Interface Issues</h1>
+		    	<ul>
+		    		<li>The navigation bar at the top of the screen is hard to read because of lack of contrast between text and the image</li>
+		    		<li>The navigation bar is also redundant with both the logo and the “bienvenidos” link taking the user to the same page</li>
+		    		<li>It is also unclear what “bienvenidos” is supposed to do if you click on it</li>
+		    		<li>The menu is unclear and hard to read/understand</li>
+		    		<li>The images for the menu are nice, but don’t resize well on different sized screens</li>
+		    		<li>There is a strange gap at the bottom of the screen above the footer</li>
+		    		<li>A little difficult to figure out how to order if that is all you want to do</li>
+		    	</ul>
+	    	</div>
+	    	<div class="card bg-light col-sm-12 col-md-6 col-lg-6 questions">
+	    		<h1>Accessibility Problems</h1>
+		    	<p>There is quite a bit of “hidden” redundant text making it difficult for a screen reader to read. A screen reader also gets very confused with the unintuitive DIV layout and doesn’t read in a very logical way. In addition, low contrast makes many things difficult to read. Text doesn’t naturally resize well and can be difficult to read and alt text on images are long and redundant.</p>
+	    	</div>
+	    </div>
+	    <div class="row bg-success question-title">
+		    <div class="col-sm-12 col-md-12 col-lg-12">
+		    	<h1>Lo-Fi Mockups</h1>
+		    </div>
+	    </div>
+	    <div class="row questions-list bg-success">
+	    	<div class="col-sm-12 col-md-12 col-lg-12 lofi-prototypes">
+	    		<h2>Desktop Lofi</h2>
+	    		<img class="padding-pics" src="./Images/desktop-lofi.png" />
+	    	</div>
+	    	<div class="col-sm-12 col-md-6 col-lg-6 lofi-prototypes.png">
+	    		<h2>Tablet Lofi</h2>
+	    		<img class="padding-pics" src="./Images/tablet-lofi.png" />
+	    	</div>
+	    	<div class="col-sm-12 col-md-6 col-lg-6 lofi-prototypes">
+	    		<h2>Mobile Lofi</h2>
+	    		<img class="padding-pics" src="./Images/mobile-lofi.png" />
+	    	</div>
+	    </div>
+	    <div class="row questions-list bg-success">
+	    	<div class="col-sm-12 col-md-4 col-lg-4 lofi-prototypes">
+	    		<h2>Desktop Hifi</h2>
+	    		<img class="padding-pics" src="./Images/desktop-hifi.png" />
+	    	</div>
+	    	<div class="col-sm-12 col-md-4 col-lg-4 lofi-prototypes.png">
+	    		<h2>Tablet Hifi</h2>
+	    		<img class="padding-pics" src="./Images/tablet-hifi.png" />
+	    	</div>
+	    	<div class="col-sm-12 col-md-4 col-lg-4 lofi-prototypes">
+	    		<h2>Mobile Hifi</h2>
+	    		<img class="padding-pics" src="./Images/mobile-hifi-1.png" />
+	    		<img class="padding-pics" src="./Images/mobile-hifi-2.png" />
+	    	</div>
+	    </div>
+	    <div class="row bg-primary observations">
+	    	<div class="card bg-light col-sm-12 col-md-6 col-lg-6 observation-1">
+		    	<h1>Visual Design Style Guide</h1>
+		    	<ul>
+		    		<img class="padding-pics" src="./Images/visual-design.png" />
+		    	</ul>
+	    	</div>
+	    	<div class="card bg-light col-sm-12 col-md-6 col-lg-6 questions">
+	    		<h1>Final Thoughts</h1>
+		    	<p>The page responds well to different text sizes and different device sizes. The screen reader gets less confused now when it jumps through the items and jumps in a way that a person would likely logically read the page. The page is significantly easier to read and figure out how to use. If someone just wants to order, nothing will get in the way and if they want to look at the menu then they can easily browse through the rest of the page. </p>
+	    	</div>
+	    </div>
+	</div>
   </body>
 </html>

@@ -1,1 +1,59 @@
 /* Put your style information here! */
+.microwave-annotated {
+	height: auto;
+	width: 85%;
+	padding: 1rem;
+}
+.original-pics {
+	padding: 1rem;
+}
+.padding-pics {
+	padding: 1rem;
+	width: 85%;
+	height: auto;
+}
+.main-title {
+	text-align: center;
+}
+.observations {
+	padding: 1.5rem;
+}
+.question-title {
+	text-align: center;
+	padding: 1rem;
+}
+.lofi-prototypes {
+	width: 100%
+	height: auto;
+	padding: 1rem;
+}
+.list-group-item {
+	display: list-item;
+}
+.empathy-maps {
+	text-align: center;
+	padding: 1.5rem;
+}
+.persona-pic {
+	max-width: 95%;
+	height: auto;
+	padding: 1rem;
+}
+.empathy-map-descriptions {
+	padding: 1.5rem;
+	text-align: center;
+}
+.map-description-text {
+	padding: .5rem;
+}
+.storyboard-pic {
+	max-width: 80%;
+	height: auto;
+}
+.storyboard {
+	padding: 1.5rem;
+	text-align: center;
+}
+.card {
+	padding: .75rem;
+}
